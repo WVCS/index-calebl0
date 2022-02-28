@@ -1,0 +1,207 @@
+ <nav>
+       <img id="logo"src="https://raw.githubusercontent.com/WVCS/index-calebl0/main/ramen.png"</img>
+      <li class="nav"><a href="index.html"> Home </a></li> 
+    <li class="nav"><a href="Noun.html"> Menu </a></li>
+   <li class="nav"><a href="convince.html"> Locations </a></li>
+    <li class="nav"><a href="event/index.html"> About Us </a></li>  
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="wrapper">
+  
+  <div class="A"> MUNCHIES RAMEN!
+  
+  </div>
+ 
+    
+    <div class="B">Order Now!
+ <br>
+      <h1>   Reservations</h1>  
+      <h2> Or </h2>
+      <h3> Mobile Order </h3>
+      <img id="car" src="https://cdn.dribbble.com/users/1102039/screenshots/13085328/media/203cc40afd7019d9672de7c185c88438.gif" >
+  
+  </div>
+  <div class="C">Merch Coming Soon! 
+    <br>
+    <br>
+    <img id="merch" src="https://editorial.designtaxi.com/editorial-images/news-NissinMerch051018/Nissin-Cup-Noodles-Top-Ramen-Fan-Merchandise-1.jpg" ></div> 
+
+ <img id="merch" src="https://editorial.designtaxi.com/editorial-images/news-NissinMerch051018/Nissin-Cup-Noodles-Top-Ramen-Fan-Merchandise-1.jpg" </img> 
+  
+  <div class="D"><img id="ramen"src="https://bloximages.newyork1.vip.townnews.com/sandiegomagazine.com/content/tncms/assets/v3/editorial/d/ca/dca68d34-0299-11eb-9652-979b0a1d1db8/5f73a58e04e8c.image.jpg?resize=1200%2C900" > </div>
+  
+  <div class="E">Socials 
+    <br>
+    <br>
+   
+    <h4>Instagram : @munchiesramen#1 </h4> 
+    <h5>Youtube : Munchies Ramen </h5>
+    <h6> Twitter : @ramenmunchies#1 </h6>
+  </div>
+  
+  
+  
+  <div class="F">Newest Locations
+ 
+    <br>
+   <br>
+    <h8>San Diego</h8>
+    <br>
+    <br>
+   <h9>Los Angeles</h9>
+    <br>
+  <br>
+    <h10>New York</h10>
+   <br>
+    <br>
+    <h11>Las Vegas </h11>
+    <br>
+   <br>
+    <h12>Kansas City</h12>
+    
+  
+  </div>
+  
+  </div>
+
+
+
+<style>
+.wrapper{
+  display: grid;
+  height: 90vh;
+  grid-template:
+  "A B C"auto
+  "D E F"
+  "G H I";
+  grid-template-columns: 20% 60% 19%;
+  grid-column-gap:5px;
+  grid-row-gap: 5px;
+}
+div{
+  background-color:salmon;
+  border:solid 1px white;
+  border-radius: 10px
+}
+body{
+  background-color: antiquewhite;
+}
+.A{
+  grid-column: 1 / 5;
+  text-align: center;
+  color:#CCFBFE ;
+  font-size: 60px;
+  text-shadow: 4px 4px 4px purple;
+}
+.E{
+  grid-row: 3 / 5;
+  font-size: 60px;
+  color: #CCFBFE;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: underline;
+  
+}
+
+.C{
+  grid-row: 3 / 5;
+  font-size: 60px;
+  color: #CCFBFE; 
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  text-decoration: underline;
+}
+.D{
+  grid-area: 2 / 2 / 5 / 2;
+    
+
+} /* row line / column line / end row / end column */
+.B{
+  grid-row: 3 / 2 ;
+  text-align: center;
+  color: antiquewhite;
+  text-shadow: 2px 2px 4px black;
+  font-size: 40px;
+}
+h1,h2,h3{
+  font-size: 40px;
+
+  
+}
+
+
+
+.F{
+  grid-row: 3 / 2;
+  font-size: 40px;
+  text-align: center;
+  color: antiquewhite;
+  text-shadow: 2px 2px 4px black;
+}
+h8,h9,h10,h11,h12{
+  font-size: 50px;
+  text-decoration: none;
+
+}
+
+
+#logo:hover {
+  border:ridge 5px red;
+  border-radius: 5%;
+  height:90px;
+   
+}
+#logo{
+  height: 80px;
+  border: ridge 5px antiquewhite;
+  border-radius 5%;
+  float: left;
+}
+.nav:hover {
+  background-color:antiquewhite;
+}
+li{
+  display:inline;
+  float:left;
+  padding:20px;
+  margin: ;
+}
+  nav {
+  list-style-type:none;
+  position:fixed;
+  background-color: pink;
+  width: 100%;
+  left:0;
+  top:0;
+  }
+a{
+  text-decoration: none;
+  color: #5602AB;
+  font-size: 150%;
+}
+#ramen{
+  width: 99.9%;
+}
+#car{
+width: 70%;
+}
+#merch{
+  width: 99%
+}
+h4{
+  font-size: 30px;
+}
+#insta{
+  height: 3%;
+}
+h5,h6{
+  font-size: 30px;
+}
+
+</style>
