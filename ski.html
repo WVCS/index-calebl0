@@ -1,0 +1,257 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+ </head>
+ <body>
+   <nav>
+      
+      <li class="nav"><a href="index.html"> Home </a></li> 
+    <li class="nav"><a href="Noun.html"> Activites </a></li>
+   <li class="nav"><a href="convince.html"> About Us </a></li>
+    <li class="nav"><a href="event/index.html"> Contact Us </a></li>  
+</nav>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="grid-container">
+  <div class="item1">“Best. Snow. Ever. You won’t regret staying here!” - Ms. Neumann
+</div>
+  <div class="item2">
+    <h1>Location</h1>
+    <h2> 13500 Wolverine Way </h2>
+  <h3> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLG8cBmy3iDAkPsUVmQ6vdULXoQgdzlEKFNR6iJvxUdsKmig/viewform?embedded=true" width="640" height="883" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+  
+  
+  <div class="item3">
+    <h4>The Crew</h4>
+    <h5> Director : Tina Ziegler </h5>
+    <h6> Lodging Manager : Ms. Parker </h6>
+    <h7> Ski Instructors : Mr. Glover and Ms. Heard </h7>
+    
+    </div>  
+  
+    
+    <div class="item4">
+      <br> 
+      <h8> Deals </h8>
+      <br>
+      <br>
+      <h9> 3 Days / 2 Nights - $1500 </h9>
+     <br>
+      <br>
+      <br>
+      <h10> 5 Days / 4 Nights - $2500 </h10>
+      <br><br>
+      <br>
+      <h11> 3 Ski Lessons to Any Package for Additional $250! </h11>
+    
+    </div>
+  
+    
+    
+    <div class="item5">
+    
+      <h12>Featuring</h12>
+   <br> <br>
+      <img id="view" src=https://travel.home.sndimg.com/content/dam/images/travel/fullrights/2017/12/13/0/CI_IdahoTourism_schweitzer-mountain-resort_ski-chalets.jpg.rend.hgtvcom.966.644.suffix/1513165268643.jpeg >
+      
+      <img id="lessons" src= https://blog-cdn.checkyeti.com/wp-content/uploads/2018/09/reserver-cours-ski-septembre.jpg >
+    
+      <img id="lifts" src="https://imengine.public.prod.sci.navigacloud.com/?uuid=1ed509a5-b1d7-5704-b734-2c4ac10372a4&type=preview&width=6000&height=4000&q=60">
+    
+      
+      <img id="cozy" src= "https://www.teahub.io/photos/full/21-216401_cozy-winter-cabin-interior.jpg">
+   
+    <img id="slopes" src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.arctictoday.com/wp-content/uploads/2020/04/skjermbilde_2020-04-08_kl._09.13.16-1000x580.png">
+      
+      <img id="camp" src="https://www.iskiny.com/sites/default/files/inline-images/DSC_8496-bristolfamily_0.jpeg">
+         
+         
+         
+         </div>
+
+  
+  
+  </div>
+   
+<style>
+  body{
+ background-image: url(https://files.tripstodiscover.com/files/2015/12/The-Lodge-at-Spruce-Peak.jpg) 
+}
+
+.nav:hover {
+  background-color:lightblue;
+}
+li{
+  display:inline;
+  float:left;
+  padding:20px;
+  margin: ;
+}
+  nav {
+  list-style-type:none;
+  position:fixed;
+  background-color: skyblue;
+  width: 100%;
+  left:0;
+  top:0;
+  }
+a{
+  text-decoration: none;
+  color: #5602AB;
+  font-size: 150%;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 1vh;
+  background-color: #2196F3;
+  padding: 1vh;
+ background-image: url(https://files.tripstodiscover.com/files/2015/12/The-Lodge-at-Spruce-Peak.jpg)
+ 
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5vh 0;
+  font-size: 6vh;
+}
+
+
+.item1{
+  font-style: italic;
+  font-size: 5vh;
+  text-shadow: 3px 1px 6px #7CC4FD;
+}
+
+.item2{
+  text-shadow: 2px 3px 5px #C191FD;
+}
+
+h1{
+  font-size: 5vh;
+ text-decoration: underline blue; 
+}
+h2{
+  font-size: 7vh;
+}
+h3{
+  height: 65vh
+}
+
+.item3{
+  text-shadow: 2px 2px 5px #7CC4FD
+}
+
+
+h4{
+  font-size: 5vh;
+  text-decoration: underline blue;
+  font-style: italic;
+}
+
+h5{
+  font-size: 5vh;
+   font-family: "Garamond";
+}
+
+h6{
+  font-size: 5vh;
+  font-family: "Garamond";
+}
+
+h7{
+  font-size: 5vh;
+  font-family: "Garamond";
+  font-weight: bold;
+}
+
+.item4{
+  text-shadow: 2px 2px 5px #C191FD;
+  
+}
+h8{
+  text-decoration: underline blue;
+  font-size: 6vh;
+  font-family: "Courier New";
+  font-weight: bold;
+ 
+}
+
+h9{
+  font-family: "Verdana";
+  font-size: 4.5vh;
+}
+
+h10{
+  font-family: "Verdana";
+  font-size: 4.5vh;
+}
+
+h11{
+  font-family: "Verdana";
+  font-size: 3.5vh;
+}
+
+.item5{
+  text-shadow: 2px 2px 5px #7CC4FD;
+  
+}
+h12{
+  font-size: 5vh;
+  text-decoration: underline blue;
+}
+#view {
+  height: 50vh;
+  float: left;
+}
+
+#lessons{
+  height: 50vh;
+  float: left;
+  width: 70vh;
+}
+
+#lifts{
+  height: 50vh;
+  width: 65vh;
+}
+
+#cozy{
+  height: 50vh;
+  float: left;
+}
+
+#slopes{
+  height: 50vh;
+  float: left;
+  width: 70vh
+}
+
+#camp{
+  height: 50vh;
+  width: 60vh;
+}
+  </style>
